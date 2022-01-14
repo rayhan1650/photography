@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-headings);
   max-width: 1200px;
@@ -37,8 +37,7 @@ h3 {
 }
 
 h1 {
-  font-size: 3rem;
-  /* font-size: 52px; */
+  font-size: 5.2rem;
   font-weight: 700;
 }
 
@@ -107,5 +106,79 @@ li > a {
 
   .nav-list {
     display: none;
+  }
+}
+
+/* main */
+
+/* top section */
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 586px;
+  height: 270px;
+  margin-right: 130px;
+}
+
+.top-link {
+  color: var(--color-footer);
+  width: 196px;
+  height: 44px;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.top-link:hover {
+  background-color: red;
+}
+
+.top-content p {
+  margin-top: 1.6rem;
+}
+
+.top-photo {
+  width: 440px;
+  height: 414px;
+}
+
+.top-photo img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .top-content {
+    margin-right: 20px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  .top-photo {
+    width: 257px;
+    height: 257px;
+  }
+
+  .top-content {
+    width: 320px;
+    height: 500px;
+    margin-right: 0;
+    align-items: center;
   }
 }
