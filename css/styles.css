@@ -290,3 +290,49 @@ footer h2 {
   color: var(--color-footer);
   font-size: 24px;
 }
+
+/* bonus part */
+
+.photo-competition {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  text-align: center;
+  margin: 90px 0;
+}
+
+.photo-competition h2 {
+  color: var(--color-footer);
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.photo-competition p {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.photo-competition a {
+  color: #fff;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .photo-competition {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .photo-competition {
+    padding: 10px;
+  }
+
+  .photo-competition p {
+    font-size: 16px;
+  }
+}
