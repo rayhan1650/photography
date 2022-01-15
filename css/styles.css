@@ -233,6 +233,19 @@ li > a {
   margin-top: 5px;
 }
 
+.grid-button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 25px;
+  margin-top: 50px;
+}
+
+.grid-button a {
+  background-color: white;
+  color: var(--color-button);
+}
+
 @media only screen and (max-width: 1023px) {
   .grid-items {
     grid-template-columns: repeat(2, 1fr);
@@ -243,4 +256,18 @@ li > a {
   .grid-items {
     grid-template-columns: 1fr;
   }
+}
+
+footer {
+  background-color: #0a0826;
+  color: var(--color-footer);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer h2 {
+  color: var(--color-footer);
+  font-size: 24px;
 }
