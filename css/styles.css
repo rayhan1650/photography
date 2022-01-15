@@ -301,7 +301,7 @@ footer h2 {
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   text-align: center;
-  margin: 90px 0;
+  margin: 90px 0 20px 0;
 }
 
 .photo-competition h2 {
